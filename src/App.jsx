@@ -1,3 +1,4 @@
+import React, { useState, useEffect, useMemo } from 'react';
 import './index.css'; 
 import Home from "./components/Home";
 import CategoryManager from "./components/CategoryManager";
