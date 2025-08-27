@@ -1,8 +1,10 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import path from "path"
+import tailwindcss from "@tailwindcss/vite"
+import react from "@vitejs/plugin-react"
+import { defineConfig } from "vite"
 
 
 export default defineConfig({
-plugins: [react()],
-base: '/toShopList/', // ⚠️ 請將 "my-app" 改為你的 GitHub Repo 名稱
+plugins: [react(), tailwindcss()],
+base: '/toShopList/', // ⚠️  "toShopList" 是我的 GitHub Repo 名稱
 });
